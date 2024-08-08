@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "enter the day"
+read day
+case $day in
+
+weekday) echo "monday,tuesday,wednesday,thrusday,friday"
+                      ;;
+weekoff) echo "sunday,saturday"
+                 ;;
+*)  echo "give current day"
+esac
+
